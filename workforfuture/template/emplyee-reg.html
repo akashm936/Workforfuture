@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register As Employee</title>
+    <link rel="stylesheet" href="/static/emp-reg.css">
+    <link rel="stylesheet" href="static/index.css">
+</head>
+
+<body>
+    {% include "header.html" %}
+    <div class="container1">
+        <div class="main-div">
+            <h1>Employee Login</h1>
+        <form action="">
+            <div class="main-f">
+                <div class="box">
+                    <!--<i class="fa fa-user"></i>-->
+                    <label for="">Enter Your name</label>
+                    <input type="name" name="name" alt="name" placeholder="Enter your name">
+                    
+                    <label for="">Create Your UserName</label>
+                    <input type="Uname" name="Uname" alt="Uname" placeholder="Enter Username">
+
+                    <label for="">Enter password</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+            
+                    <label for="">what your previous work?</label>
+                    <input type="name" name="" id="" placeholder="Enter your previous work">
+                    
+                    <select >
+                        <option value="0">work you have</option>
+                        <option value="1">plumber</option>
+                        <option value="2">car painter</option>
+                        <option value="3">constructer</option>
+                        <option value="4">factory worker</option>
+                        <option value="5">other</option>
+                    </select>
+
+                    <label for="">Enter Your Phone Number</label>
+                    <input type="phonename" name="phonename" alt="phonename" placeholder="Enter your phonename">
+
+                    <div class="div-check">
+                        <input type = "checkbox" class="check"><h4>send whatsapp message for work?</h4>
+                        <input type="checkbox" class="check"><h4>term & condition </h4>
+            
+                    </div>
+                    <div class="div-btn">
+                        <button>Sign Up</button>
+                        <button>Cancel</button>
+                    </div>
+                
+                </div>
+            </div>
+        </form>
+
+        </div>
+    </div>
+    {% include "footer.html" %}
+</body>
+
+</html>

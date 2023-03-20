@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register as</title>
+    <link rel="stylesheet" href="/static/reg.css">
+    <link rel="stylesheet" href="static/index.css">
+</head>
+<body>
+    {% include "header.html" %}
+    <div class="main-div1">
+        <div class="head">
+            <h1>Register As a</h1>
+            <div class="reg-div">
+                <div class="sub-1">
+                    <span>Employee</span><a href="empreg">
+
+                    <img src="static/employee.png" alt=""></a>
+                </div>
+                <div class="sub-2">
+                    <span>Bussiness</span><a href="bussinessreg">
+                    <img src="static/bussiness.png" alt=""></a>
+                </div>
+            </div>
+            <div class="log-div">
+            
+                <div class="sub">
+                    <span> Already have a Account log in</span>
+                    <button class="btn"><a href="login">Log In</a></button>
+                </div> 
+            </div>
+        </div>
+    </div>
+    {% include "footer.html" %}
+</body>
+</html>

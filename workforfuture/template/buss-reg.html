@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register As Bussiness </title>
+    <link rel="stylesheet" href="/static/buss-reg.css">
+    <link rel="stylesheet" href="static/index.css">
+</head>
+
+<body>
+    {% include "header.html" %}
+    <div class="container1">
+        <div class="main-img">
+            <img src="/static/register.jpg" alt="">
+        </div>
+        <div class="main-div">
+            <h1>Bussiness Registration</h1>
+        <form action="">
+            <div class="main-f">
+                <div class="box">
+                    <!--<i class="fa fa-user"></i>-->
+                    <label for="">Enter Your name</label>
+                    <input type="name" name="name" alt="name" placeholder="Enter your name">
+                    
+                    <label for="">Create Your UserName</label>
+                    <input type="Uname" name="Uname" alt="Uname" placeholder="Enter Username">
+
+                    <label for="">Enter password</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+
+                    <label for="">Enter Name of Your Shop/Bussiness</label>
+                    <input type="Bname" name="Bname" alt="Bname" placeholder="Enter name of shop/bussiness">
+
+                    <label for="">how many employees you need</label>
+                    <input type="BNname" name="BNname" alt="BNname" placeholder="Enter number">
+
+                    <label for="">Enter Your Phone Number</label>
+                    <input type="phonename" name="phonename" alt="phonename" placeholder="Enter your phone number">
+                    
+            
+                    <label for="">Enter Work Shift</label>
+                    <select >
+                        <option value="0">Per Day</option>
+                        <option value="1">Per Week</option>
+                        <option value="2">Per Month</option>
+                        <option value="3">Annual</option>
+                        <option value="4">Contract bases</option>
+                        <option value="5">Task Bases</option>
+                    </select>
+                    
+                    <label for="">which type employee you have</label>
+                    <select >
+                        <option value="0">which type employee you have</option>
+                        <option value="1">plumber</option>
+                        <option value="2">car painter</option>
+                        <option value="3">constructer</option>
+                        <option value="4">factory worker</option>
+                        <option value="5">other</option>
+                    </select>
+
+
+                    <div class="div-check">
+                        <input type = "checkbox" class="check"><h4>send whatsapp message for work?</h4>
+                        <input type="checkbox" class="check"><h4>term & condition </h4>
+            
+                    </div>
+                    <div class="div-btn">
+                        <button>Sign Up</button>
+                        <button>Cancel</button>
+                    </div>
+                
+                </div>
+            </div>
+        </form>
+
+        </div>
+    </div>
+    {% include "footer.html" %}
+</body>
+
+</html>

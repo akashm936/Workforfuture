@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*body{
+    background-color: aquamarine;
+}*/
+
+.container{
+    /*background-color: slategrey;*/ 
+    width: auto;
+    margin: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px 0px;
+}
+.header-div{
+    display: flex;
+
+}
+
+.header-div .logo{
+    margin: 5px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+}
+
+.logo img{
+    margin-left: 200px;
+    max-width: auto;
+    width: 100px;
+}
+
+.header-div .menu {
+    padding: 5px;
+    margin-right: 200px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+}
+.menu ul{
+    display: flex; 
+    margin: 0px 10px;
+    
+}
+.menu ul button{
+    border: 0.5px solid rgb(214, 211, 27) ;
+    border-radius: 30px;
+}
+
+.menu ul button li a{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu ul button:hover{
+    cursor: pointer;
+    background-color: #7b94a350;
+    color: cornflowerblue;
+}
+
+.header-div .menu ul li{
+    list-style: none;
+    padding: 4px;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+
+.header-div .menu ul li a:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.menu ul a{
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*this the home page css code */
+
+.home-div{
+    width: 100vw;
+    height: 90vh;
+    padding: 0px auto;
+    background-color: rgb(204, 244, 248);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-div .info-div{
+    width: 500px;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    height: auto;
+    /*background-color: antiquewhite;*/
+}
+
+.home-div .info-div h1{
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.home-div .info-div h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 15px 0px;
+    color: brown;
+
+}
+.home-div .info-div p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 15px 0px;
+
+}
+
+.home-div .img-div{
+    width: auto;
+    height: auto;
+    /*background-color: blanchedalmond;*/
+}
+.home-div .img-div img{
+    width: 500px;
+    justify-content: center;
+    align-content: center;
+}
+/* this is the about section */
+
+/*this the footer css code */
+.foot-con{
+    width: 100vw;
+    border: 0.5px solid rgba(216, 201, 201, 0.678) ;
+    margin-top: 30px;
+    color: beige;
+    background-color: #434242;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+    align-content: center;
+    display: grid;
+    font-family: 'Quicksand', sans-serif;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.foot-con1{
+    width: 300px;
+}
+
+.foot-con1 p{
+    padding-top: 10px;
+}
+
+.foot-con2{
+    width: auto;
+}
+
+.foot-con2 ul {
+    list-style: none;
+    
+}
+.foot-con2 ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+.foot-con2 ul li a{
+    
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-buttons a{
+    color: white;
+
+}
+/* Style all font awesome icons */
+.fa {
+    padding:  10px 5px;    
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 5px;
+}
+
+.fa .fa-instagram{
+    padding: 2px;
+}
+
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.foot-con4 img{
+    margin: 10px 0px;
+    width:100px;
+    height: 100px;
+}
+
+.foot-credit{
+    width: 100vw;
+    background-color: #434242;
+    height: auto;
+}
+
+.foot-credit h3{
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+  /* Set a specific color for each brand */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(252, 204, 115);
+    }
+}
